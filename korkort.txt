@@ -1,0 +1,12 @@
+Total: 10000
+*********************
+Purchade type: Driving lesson
+Purchase cost: 630
+Total left: 9370
+Date: 2021-02-17
+*********************
+Purchade type: Driving lesson
+Purchase cost: 630
+Total left: 8740
+Date: 2021-02-17
+*********************

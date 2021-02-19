@@ -1,0 +1,19 @@
+{
+    "uppdateringar": [
+        {
+            "summa": 10000,
+            "utgift-summa": "",
+            "utgift-typ": ""
+        },
+        {
+            "summa": 9370,
+            "utgift-summa": 630,
+            "utgift-typ": "Driving lesson"
+        },
+        {
+            "summa": 8740,
+            "utgift-summa": 630,
+            "utgift-typ": "Driving lesson"
+        }
+    ]
+}
