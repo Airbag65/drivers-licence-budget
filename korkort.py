@@ -21,7 +21,7 @@ def open_json():
     total = data['uppdateringar'][index]['summa']
     ny_total = total - payed_amount
 
-    json_data = {'summa': ny_total, 'utgift-typ': f'{purchased}', 'utgift-summa': payed_amount}
+    json_data = {'summa': ny_total, 'utgift-typ': f'{purchased}', 'utgift-summa': payed_amount, 'Datum': date.today()}
     data['uppdateringar'].append(json_data)
 
     write_json = open("summa.json", "w+")
