@@ -44,6 +44,8 @@ def rakna():
         purchased = "Theorylesson"
     elif payed_amount == 400:
         purchased = "Funktion & Kontroll"
+    elif payed_amount == 325:
+        purchased = "Teoriprov"
     else:
         purchased = "Other expense"
 
@@ -54,7 +56,7 @@ def write_to_txt():
     global purchased, payed_amount, ny_total
     f = open("korkort.txt", "a")
     f.write(
-        f"Purchade type: {purchased}\nPurchase cost: {payed_amount}\nTotal left: {ny_total}\nDate: {date.today()}\n*********************\n"
+        f"Purchade type: {purchased}\nPurchase cost: {payed_amount} kr\nDate: {date.today()}\nBudget left: {ny_total} kr\n*********************\n"
     )
     f.close()
 
